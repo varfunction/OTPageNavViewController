@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B1513D1973CE89006CEDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1513C1973CE89006CEDCB /* Foundation.framework */; };
+		C6B1513F1973CE89006CEDCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1513E1973CE89006CEDCB /* CoreGraphics.framework */; };
+		C6B151411973CE89006CEDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B151401973CE89006CEDCB /* UIKit.framework */; };
+		C6B151471973CE89006CEDCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B151451973CE89006CEDCB /* InfoPlist.strings */; };
+		C6B151491973CE89006CEDCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B151481973CE89006CEDCB /* main.m */; };
+		C6B1514D1973CE89006CEDCB /* OTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1514C1973CE89006CEDCB /* OTAppDelegate.m */; };
+		C6B1514F1973CE89006CEDCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B1514E1973CE89006CEDCB /* Images.xcassets */; };
+		C6B151561973CE89006CEDCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B151551973CE89006CEDCB /* XCTest.framework */; };
+		C6B151571973CE89006CEDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1513C1973CE89006CEDCB /* Foundation.framework */; };
+		C6B151581973CE89006CEDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B151401973CE89006CEDCB /* UIKit.framework */; };
+		C6B151601973CE8A006CEDCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B1515E1973CE8A006CEDCB /* InfoPlist.strings */; };
+		C6B151621973CE8A006CEDCB /* PageNavControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B151611973CE8A006CEDCB /* PageNavControllerTests.m */; };
+		C6B1516D1973CF43006CEDCB /* OTPageNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1516C1973CF43006CEDCB /* OTPageNavBar.m */; };
+		C6B151701973CF79006CEDCB /* OTPageNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1516F1973CF79006CEDCB /* OTPageNavViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B151591973CE89006CEDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B151311973CE89006CEDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B151381973CE89006CEDCB;
+			remoteInfo = PageNavController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6B151391973CE89006CEDCB /* PageNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B1513C1973CE89006CEDCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6B1513E1973CE89006CEDCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6B151401973CE89006CEDCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6B151441973CE89006CEDCB /* PageNavController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageNavController-Info.plist"; sourceTree = "<group>"; };
+		C6B151461973CE89006CEDCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6B151481973CE89006CEDCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6B1514A1973CE89006CEDCB /* PageNavController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageNavController-Prefix.pch"; sourceTree = "<group>"; };
+		C6B1514B1973CE89006CEDCB /* OTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAppDelegate.h; sourceTree = "<group>"; };
+		C6B1514C1973CE89006CEDCB /* OTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAppDelegate.m; sourceTree = "<group>"; };
+		C6B1514E1973CE89006CEDCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6B151541973CE89006CEDCB /* PageNavControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageNavControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B151551973CE89006CEDCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6B1515D1973CE8A006CEDCB /* PageNavControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageNavControllerTests-Info.plist"; sourceTree = "<group>"; };
+		C6B1515F1973CE8A006CEDCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6B151611973CE8A006CEDCB /* PageNavControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageNavControllerTests.m; sourceTree = "<group>"; };
+		C6B1516B1973CF43006CEDCB /* OTPageNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPageNavBar.h; sourceTree = "<group>"; };
+		C6B1516C1973CF43006CEDCB /* OTPageNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPageNavBar.m; sourceTree = "<group>"; };
+		C6B1516E1973CF79006CEDCB /* OTPageNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPageNavViewController.h; sourceTree = "<group>"; };
+		C6B1516F1973CF79006CEDCB /* OTPageNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPageNavViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B151361973CE89006CEDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1513F1973CE89006CEDCB /* CoreGraphics.framework in Frameworks */,
+				C6B151411973CE89006CEDCB /* UIKit.framework in Frameworks */,
+				C6B1513D1973CE89006CEDCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B151511973CE89006CEDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B151561973CE89006CEDCB /* XCTest.framework in Frameworks */,
+				C6B151581973CE89006CEDCB /* UIKit.framework in Frameworks */,
+				C6B151571973CE89006CEDCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B151301973CE89006CEDCB = {
+			isa = PBXGroup;
+			children = (
+				C6B151421973CE89006CEDCB /* PageNavController */,
+				C6B1515B1973CE8A006CEDCB /* PageNavControllerTests */,
+				C6B1513B1973CE89006CEDCB /* Frameworks */,
+				C6B1513A1973CE89006CEDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B1513A1973CE89006CEDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B151391973CE89006CEDCB /* PageNavController.app */,
+				C6B151541973CE89006CEDCB /* PageNavControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B1513B1973CE89006CEDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1513C1973CE89006CEDCB /* Foundation.framework */,
+				C6B1513E1973CE89006CEDCB /* CoreGraphics.framework */,
+				C6B151401973CE89006CEDCB /* UIKit.framework */,
+				C6B151551973CE89006CEDCB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B151421973CE89006CEDCB /* PageNavController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1514B1973CE89006CEDCB /* OTAppDelegate.h */,
+				C6B1514C1973CE89006CEDCB /* OTAppDelegate.m */,
+				C6B1514E1973CE89006CEDCB /* Images.xcassets */,
+				C6B151431973CE89006CEDCB /* Supporting Files */,
+				C6B1516B1973CF43006CEDCB /* OTPageNavBar.h */,
+				C6B1516C1973CF43006CEDCB /* OTPageNavBar.m */,
+				C6B1516E1973CF79006CEDCB /* OTPageNavViewController.h */,
+				C6B1516F1973CF79006CEDCB /* OTPageNavViewController.m */,
+			);
+			path = PageNavController;
+			sourceTree = "<group>";
+		};
+		C6B151431973CE89006CEDCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B151441973CE89006CEDCB /* PageNavController-Info.plist */,
+				C6B151451973CE89006CEDCB /* InfoPlist.strings */,
+				C6B151481973CE89006CEDCB /* main.m */,
+				C6B1514A1973CE89006CEDCB /* PageNavController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B1515B1973CE8A006CEDCB /* PageNavControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B151611973CE8A006CEDCB /* PageNavControllerTests.m */,
+				C6B1515C1973CE8A006CEDCB /* Supporting Files */,
+			);
+			path = PageNavControllerTests;
+			sourceTree = "<group>";
+		};
+		C6B1515C1973CE8A006CEDCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1515D1973CE8A006CEDCB /* PageNavControllerTests-Info.plist */,
+				C6B1515E1973CE8A006CEDCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B151381973CE89006CEDCB /* PageNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B151651973CE8A006CEDCB /* Build configuration list for PBXNativeTarget "PageNavController" */;
+			buildPhases = (
+				C6B151351973CE89006CEDCB /* Sources */,
+				C6B151361973CE89006CEDCB /* Frameworks */,
+				C6B151371973CE89006CEDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageNavController;
+			productName = PageNavController;
+			productReference = C6B151391973CE89006CEDCB /* PageNavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B151531973CE89006CEDCB /* PageNavControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B151681973CE8A006CEDCB /* Build configuration list for PBXNativeTarget "PageNavControllerTests" */;
+			buildPhases = (
+				C6B151501973CE89006CEDCB /* Sources */,
+				C6B151511973CE89006CEDCB /* Frameworks */,
+				C6B151521973CE89006CEDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B1515A1973CE89006CEDCB /* PBXTargetDependency */,
+			);
+			name = PageNavControllerTests;
+			productName = PageNavControllerTests;
+			productReference = C6B151541973CE89006CEDCB /* PageNavControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B151311973CE89006CEDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "ocean tang";
+				TargetAttributes = {
+					C6B151531973CE89006CEDCB = {
+						TestTargetID = C6B151381973CE89006CEDCB;
+					};
+				};
+			};
+			buildConfigurationList = C6B151341973CE89006CEDCB /* Build configuration list for PBXProject "PageNavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6B151301973CE89006CEDCB;
+			productRefGroup = C6B1513A1973CE89006CEDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B151381973CE89006CEDCB /* PageNavController */,
+				C6B151531973CE89006CEDCB /* PageNavControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B151371973CE89006CEDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B151471973CE89006CEDCB /* InfoPlist.strings in Resources */,
+				C6B1514F1973CE89006CEDCB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B151521973CE89006CEDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B151601973CE8A006CEDCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B151351973CE89006CEDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B151701973CF79006CEDCB /* OTPageNavViewController.m in Sources */,
+				C6B151491973CE89006CEDCB /* main.m in Sources */,
+				C6B1516D1973CF43006CEDCB /* OTPageNavBar.m in Sources */,
+				C6B1514D1973CE89006CEDCB /* OTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B151501973CE89006CEDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B151621973CE8A006CEDCB /* PageNavControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B1515A1973CE89006CEDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B151381973CE89006CEDCB /* PageNavController */;
+			targetProxy = C6B151591973CE89006CEDCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B151451973CE89006CEDCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B151461973CE89006CEDCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6B1515E1973CE8A006CEDCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B1515F1973CE8A006CEDCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B151631973CE8A006CEDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6B151641973CE8A006CEDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B151661973CE8A006CEDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageNavController/PageNavController-Prefix.pch";
+				INFOPLIST_FILE = "PageNavController/PageNavController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6B151671973CE8A006CEDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageNavController/PageNavController-Prefix.pch";
+				INFOPLIST_FILE = "PageNavController/PageNavController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6B151691973CE8A006CEDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PageNavController.app/PageNavController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageNavController/PageNavController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PageNavControllerTests/PageNavControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6B1516A1973CE8A006CEDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PageNavController.app/PageNavController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageNavController/PageNavController-Prefix.pch";
+				INFOPLIST_FILE = "PageNavControllerTests/PageNavControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B151341973CE89006CEDCB /* Build configuration list for PBXProject "PageNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B151631973CE8A006CEDCB /* Debug */,
+				C6B151641973CE8A006CEDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B151651973CE8A006CEDCB /* Build configuration list for PBXNativeTarget "PageNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B151661973CE8A006CEDCB /* Debug */,
+				C6B151671973CE8A006CEDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B151681973CE8A006CEDCB /* Build configuration list for PBXNativeTarget "PageNavControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B151691973CE8A006CEDCB /* Debug */,
+				C6B1516A1973CE8A006CEDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B151311973CE89006CEDCB /* Project object */;
+}
